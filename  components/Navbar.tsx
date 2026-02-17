@@ -43,7 +43,6 @@ const Navbar = () => {
                         <a href="#">Enterprise</a>
                         <a href="#">Another</a>
                     </ul>
-
                 </div>
 
                 <div className={'actions'}>

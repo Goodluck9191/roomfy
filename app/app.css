@@ -441,7 +441,7 @@
         }
 
         .demo {
-          @apply px-8 bg-white rounded-md hover:bg-zinc-50;
+          @apply px-8 bg-white rounded-md hover:bg-zinc-50  shadow-md hover:shadow-lg;
         }
       }
 
@@ -459,7 +459,7 @@
         }
 
         .upload-card {
-          @apply relative w-full max-w-xl bg-white rounded-2xl shadow-xl overflow-hidden border border-zinc-100 p-8 z-10 transition-transform hover:scale-[1.01] duration-500;
+          @apply relative w-full max-w-xl bg-white rounded-2xl shadow-xl overflow-hidden border border-zinc-100 p-8 z-10 transition-transform hover:scale-[1.01] duration-500 ;
 
           .upload-head {
             @apply text-center mb-6;
@@ -479,6 +479,7 @@
             p {
               @apply text-zinc-500 text-sm mt-1;
             }
+
           }
         }
       }
